@@ -390,7 +390,13 @@ def big_shoe_rebounds
             
             bucket << stats
             
-            bucket.map ||
+            bucket.map do |index|
+              index.each_pair do |p_key, p_value|
+                
+                if p_key == 
+                
+              end
+            end
 binding.pry              
           end
           
