@@ -350,7 +350,7 @@ def player_stats(name)
   nil
 end
   
-p  player_stats(name) 
+p  player_stats("Bismack Biyombo") 
   
 
 
