@@ -393,7 +393,9 @@ def big_shoe_rebounds
             bucket.map do |index|
               index.each_pair do |p_key, p_value|
                 
-                if p_key == 
+                if p_key == :rebounds
+                  return p_value
+                end
                 
               end
             end
