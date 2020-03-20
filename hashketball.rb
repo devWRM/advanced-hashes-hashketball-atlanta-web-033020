@@ -219,7 +219,7 @@ end
 def shoe_size(player)
   
   data = game_hash
-  player_hash = player_stats(data)
+  player_hash = players_stats(data)
   
   player_hash.each_pair do |name, player_stats|
     
