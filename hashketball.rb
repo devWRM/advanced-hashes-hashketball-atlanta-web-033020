@@ -340,7 +340,11 @@ end
 # Build method, player_stats, takes in argument of a player's name and returns a hash of that player's statsdef 
 
 def player_stats(name)
+  players = players_stats(game_hash)
   
+  players.map do ||
+    
+  end
   
 end
   
