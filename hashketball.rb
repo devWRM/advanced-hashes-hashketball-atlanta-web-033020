@@ -344,6 +344,10 @@ def player_stats(name)
   
   players.each_pair do |player, stats|
     if player == name
+      
+      # Fix code to pass
+      stats.delete(player)
+      
       return stats
     end
   end
