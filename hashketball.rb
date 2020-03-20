@@ -346,7 +346,7 @@ def player_stats(name)
     if player == name
       
       # Fix code to pass
-      stats.delete(player)
+      stats.delete(:player_name)
       
       return stats
     end
