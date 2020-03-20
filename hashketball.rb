@@ -342,8 +342,8 @@ end
 def player_stats(name)
   players = players_stats(game_hash)
   
-  players.map do |t_mate, stats|
-    if t_mate == name
+  players.map do |player, stats|
+    if player == name
       return stats
     end
   end
