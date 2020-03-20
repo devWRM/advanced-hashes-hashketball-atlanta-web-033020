@@ -381,13 +381,14 @@ def big_shoe_rebounds
   end
   
   shoe_size
+  bucket = []
   
   all_players.each_pair do |name, stats|
         stats.each_pair do |player_key, player_value|
           
           if player_key == :shoe && player_value == shoe_size
             
-            ???????????????????????
+            bucket << stats
               
           end
           
