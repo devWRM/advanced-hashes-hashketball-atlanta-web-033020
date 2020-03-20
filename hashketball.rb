@@ -346,12 +346,11 @@ def player_stats(name)
     if player == name
       return stats
     end
-    
   end
-  
+  nil
 end
   
-  
+p  player_stats(name) 
   
 
 
