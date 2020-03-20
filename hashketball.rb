@@ -367,7 +367,8 @@ def big_shoe_rebounds
   all_players = players_stats(game_hash)
   SHOE_SIZE = 0
   
-  all_players.each_pair do ||
+  all_players.each_pair do |name, stats|
+    stats.
     
     
   end
