@@ -380,6 +380,7 @@ def big_shoe_rebounds
     end
   end
   
+  shoe_size
   shoe_name
   
   all_players.each_pair do |name, stats|
