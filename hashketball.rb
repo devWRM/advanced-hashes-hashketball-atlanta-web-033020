@@ -182,7 +182,7 @@ def players_stats(data)
   stats
 end
 
-# p players_stats(game_hash)
+ p players_stats(game_hash)
 
 
 
