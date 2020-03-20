@@ -363,6 +363,7 @@ end
 # First, find the player with the largest shoe size
 # Then, return that player's number of rebounds [Remember to think about return values here.]
 
+require 'pry'
 def big_shoe_rebounds
   all_players = players_stats(game_hash)
   shoe_size = 0
@@ -381,6 +382,7 @@ def big_shoe_rebounds
   end
   
   shoe_size
+  binding.pry
   shoe_name
   
   all_players.each_pair do |name, stats|
