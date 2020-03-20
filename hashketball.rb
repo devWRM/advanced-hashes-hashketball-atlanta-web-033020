@@ -374,7 +374,6 @@ def big_shoe_rebounds
       if player_key == :shoe
         if player_value > shoe_size
           shoe_size = player_value
-          shoe_name = name
         end
       end
       
@@ -388,7 +387,7 @@ def big_shoe_rebounds
         stats.each_pair do |player_key, player_value|
           
           if player_key == :shoe
-            return player_value
+            shoe_name = name
          
           end
         end
