@@ -365,7 +365,7 @@ end
 
 def big_shoe_rebounds
   all_players = players_stats(game_hash)
-  SHOE_SIZE = 0
+  shoe_size = 0
   
   all_players.each_pair do |name, stats|
     stats.each_pair do |player_key, player_value|
@@ -381,6 +381,14 @@ def big_shoe_rebounds
   end
   
   shoe_name
+  
+   all_players.each_pair do |name, stats|
+    stats.each_pair do |player_key, player_value|
+  
+        if shoe_name == name
+          
+  
+  
   
 end
 
