@@ -342,7 +342,10 @@ end
 def player_stats(name)
   players = players_stats(game_hash)
   
-  players.map do ||
+  players.map do |player, stats|
+    if player == name
+      return stats
+    end
     
   end
   
