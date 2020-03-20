@@ -345,7 +345,7 @@ def player_stats(name)
   players.each_pair do |player, stats|
     if player == name
       
-      # Fix code to pass
+      # Fix code to pass the LEARN test
       stats.delete(:player_name)
       
       return stats
