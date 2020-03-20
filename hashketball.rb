@@ -344,7 +344,7 @@ def player_stats(name)
   
   players.each_pair do |player, stats|
     if player == name
-      return stats
+      return [player stats
     end
   end
   nil
