@@ -389,6 +389,8 @@ def big_shoe_rebounds
           if player_key == :shoe && player_value == shoe_size
             
             bucket << stats
+            
+            bucket.map ||
 binding.pry              
           end
           
