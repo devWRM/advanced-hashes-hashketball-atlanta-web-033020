@@ -224,7 +224,7 @@ def shoe_size(player)
   player_hash.each_pair do |name, player_stat|
     
     if name == player
-        player_stats.each_pair do |player_key, player_value|
+        player_stat.each_pair do |player_key, player_value|
              if player_key == :shoe
                return player_value
              end
