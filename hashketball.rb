@@ -382,8 +382,9 @@ def big_shoe_rebounds
   end
   
   shoe_size
-  binding.pry
+  
   shoe_name
+  binding.pry
   
   all_players.each_pair do |name, stats|
       if shoe_name == name
